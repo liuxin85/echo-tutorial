@@ -53,3 +53,9 @@ To add convext in apps/web
 ```bash
 pnpm -F web add convex
 ```
+
+# 03 Clerk Authentication
+- Resolve eslint dependency issuse
+```bash
+pnpm view eslint@9.32.0
+```
