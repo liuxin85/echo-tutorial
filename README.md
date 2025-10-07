@@ -59,3 +59,5 @@ pnpm -F web add convex
 ```bash
 pnpm view eslint@9.32.0
 ```
+
+- Clerk with Convex
