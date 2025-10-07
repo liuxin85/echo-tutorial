@@ -27,5 +27,29 @@ Your `tailwind.config.ts` and `globals.css` are already set up to use the compon
 To use the components in your app, import them from the `ui` package.
 
 ```tsx
-import { Button } from "@workspace/ui/components/button"
+import { Button } from "@workspace/ui/components/button";
+```
+
+# 02 Convex Package
+
+- Resolve lint error form build command
+
+- Setup convex
+
+To add convex
+
+```bash
+pnpm -F backend add convex
+```
+
+To setup convex
+
+```bash
+pnpm -F backend run setup
+```
+
+To add convext in apps/web
+
+```bash
+pnpm -F web add convex
 ```
